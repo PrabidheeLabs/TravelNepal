@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+             android:id="@+id/draw_calendar"
+            android:title="Nepali Calendar"
+            ></item>
+        <item
+            android:id="@+id/draw_agencies"
+            android:title="Agencies"
+            ></item>
+
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/draw_about_us"
+            android:title="About Us"
+            ></item>
+        <item
+            android:id="@+id/draw_settings"
+            android:title="Settings"
+            ></item>
+
+
+    </group>
+</menu>
