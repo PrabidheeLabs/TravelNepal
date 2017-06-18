@@ -6,216 +6,425 @@
 
     <!-- TODO: Update blank fragment layout -->
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:padding="5dp">
+        android:background="@android:color/darker_gray">
 
-
-        <TextView
-            android:id="@+id/textView"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:text="Suggested Places"
-            android:textAppearance="@android:style/TextAppearance.Material.Subhead" />
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-        <HorizontalScrollView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingBottom="5dp"
-            android:scrollbars="none">
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:text="Suggested Places"
+                android:textAppearance="@android:style/TextAppearance.Material.Subhead" />
 
-            <LinearLayout
-                android:layout_width="wrap_content"
+            <HorizontalScrollView
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:paddingBottom="5dp"
+                android:scrollbars="none">
 
-                android:orientation="horizontal">
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
+                <LinearLayout
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_marginLeft="1dp"
-                    android:layout_marginRight="1dp"
-                    android:background="#fff"
-                    android:elevation="1dp"
-                    android:padding="10dp">
 
-                    <ImageView
-                        android:id="@+id/cardview_image"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentTop="true"
-                        android:src="@drawable/ghandruk" />
+                    android:orientation="horizontal">
 
-                    <TextView
-                        android:id="@+id/cardview_title"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/cardview_image"
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="#fff"
+                        android:elevation="1dp"
+                        android:padding="10dp">
 
-                        android:paddingBottom="2dp"
-                        android:paddingTop="5dp"
-                        android:text="Ghandruk"
-                        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+                        <ImageView
+                            android:id="@+id/cardview_image"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:src="@drawable/ghandruk" />
 
-                    <TextView
-                        android:id="@+id/cardview_desc"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignStart="@id/cardview_title"
-                        android:layout_below="@id/cardview_title"
-                        android:text="Kaski"></TextView>
-                </RelativeLayout>
+                        <TextView
+                            android:id="@+id/cardview_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/cardview_image"
 
-                <RelativeLayout
-                    android:layout_width="match_parent"
+                            android:paddingBottom="2dp"
+                            android:paddingTop="5dp"
+                            android:text="Ghandruk"
+                            android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+                        <TextView
+                            android:id="@+id/cardview_desc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@id/cardview_title"
+                            android:layout_below="@id/cardview_title"
+                            android:text="Kaski"></TextView>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="#fff"
+                        android:elevation="1dp"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:id="@+id/cardview_image"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:src="@drawable/ghandruk" />
+
+                        <TextView
+                            android:id="@+id/cardview_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/cardview_image"
+
+                            android:paddingBottom="2dp"
+                            android:paddingTop="5dp"
+                            android:text="Ghandruk"
+                            android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+                        <TextView
+                            android:id="@+id/cardview_desc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@id/cardview_title"
+                            android:layout_below="@id/cardview_title"
+                            android:text="Kaski"></TextView>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="#fff"
+                        android:elevation="1dp"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:id="@+id/cardview_image"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:src="@drawable/ghandruk" />
+
+                        <TextView
+                            android:id="@+id/cardview_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/cardview_image"
+
+                            android:paddingBottom="2dp"
+                            android:paddingTop="5dp"
+                            android:text="Ghandruk"
+                            android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+                        <TextView
+                            android:id="@+id/cardview_desc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@id/cardview_title"
+                            android:layout_below="@id/cardview_title"
+                            android:text="Kaski"></TextView>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="#fff"
+                        android:elevation="1dp"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:id="@+id/cardview_image"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:src="@drawable/ghandruk" />
+
+                        <TextView
+                            android:id="@+id/cardview_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/cardview_image"
+
+                            android:paddingBottom="2dp"
+                            android:paddingTop="5dp"
+                            android:text="Ghandruk"
+                            android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+                        <TextView
+                            android:id="@+id/cardview_desc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@id/cardview_title"
+                            android:layout_below="@id/cardview_title"
+                            android:text="Kaski"></TextView>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="#fff"
+                        android:elevation="1dp"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:id="@+id/cardview_image"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:src="@drawable/ghandruk" />
+
+                        <TextView
+                            android:id="@+id/cardview_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/cardview_image"
+
+                            android:paddingBottom="2dp"
+                            android:paddingTop="5dp"
+                            android:text="Ghandruk"
+                            android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+                        <TextView
+                            android:id="@+id/cardview_desc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@id/cardview_title"
+                            android:layout_below="@id/cardview_title"
+                            android:text="Kaski"></TextView>
+                    </RelativeLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+
+                android:paddingTop="5dp"
+                android:text="Places of Your Interest"
+                android:textAppearance="@android:style/TextAppearance.Material.Subhead" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="5dp"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_marginLeft="1dp"
-                    android:layout_marginRight="1dp"
-                    android:background="#fff"
-                    android:elevation="1dp"
-                    android:padding="10dp">
 
-                    <ImageView
-                        android:id="@+id/cardview_image"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentTop="true"
-                        android:src="@drawable/ghandruk" />
+                    android:orientation="horizontal">
 
-                    <TextView
-                        android:id="@+id/cardview_title"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/cardview_image"
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="#fff"
+                        android:elevation="1dp"
+                        android:padding="10dp">
 
-                        android:paddingBottom="2dp"
-                        android:paddingTop="5dp"
-                        android:text="Ghandruk"
-                        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+                        <ImageView
+                            android:id="@+id/cardview_image"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:src="@drawable/ghandruk" />
 
-                    <TextView
-                        android:id="@+id/cardview_desc"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignStart="@id/cardview_title"
-                        android:layout_below="@id/cardview_title"
-                        android:text="Kaski"></TextView>
-                </RelativeLayout>
+                        <TextView
+                            android:id="@+id/cardview_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/cardview_image"
 
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="1dp"
-                    android:layout_marginRight="1dp"
-                    android:background="#fff"
-                    android:elevation="1dp"
-                    android:padding="10dp">
+                            android:paddingBottom="2dp"
+                            android:paddingTop="5dp"
+                            android:text="Ghandruk"
+                            android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
-                    <ImageView
-                        android:id="@+id/cardview_image"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentTop="true"
-                        android:src="@drawable/ghandruk" />
+                        <TextView
+                            android:id="@+id/cardview_desc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@id/cardview_title"
+                            android:layout_below="@id/cardview_title"
+                            android:text="Kaski"></TextView>
+                    </RelativeLayout>
 
-                    <TextView
-                        android:id="@+id/cardview_title"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/cardview_image"
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="#fff"
+                        android:elevation="1dp"
+                        android:padding="10dp">
 
-                        android:paddingBottom="2dp"
-                        android:paddingTop="5dp"
-                        android:text="Ghandruk"
-                        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+                        <ImageView
+                            android:id="@+id/cardview_image"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:src="@drawable/ghandruk" />
 
-                    <TextView
-                        android:id="@+id/cardview_desc"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignStart="@id/cardview_title"
-                        android:layout_below="@id/cardview_title"
-                        android:text="Kaski"></TextView>
-                </RelativeLayout>
+                        <TextView
+                            android:id="@+id/cardview_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/cardview_image"
 
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="1dp"
-                    android:layout_marginRight="1dp"
-                    android:background="#fff"
-                    android:elevation="1dp"
-                    android:padding="10dp">
+                            android:paddingBottom="2dp"
+                            android:paddingTop="5dp"
+                            android:text="Ghandruk"
+                            android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
-                    <ImageView
-                        android:id="@+id/cardview_image"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentTop="true"
-                        android:src="@drawable/ghandruk" />
+                        <TextView
+                            android:id="@+id/cardview_desc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@id/cardview_title"
+                            android:layout_below="@id/cardview_title"
+                            android:text="Kaski"></TextView>
+                    </RelativeLayout>
 
-                    <TextView
-                        android:id="@+id/cardview_title"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/cardview_image"
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="#fff"
+                        android:elevation="1dp"
+                        android:padding="10dp">
 
-                        android:paddingBottom="2dp"
-                        android:paddingTop="5dp"
-                        android:text="Ghandruk"
-                        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+                        <ImageView
+                            android:id="@+id/cardview_image"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:src="@drawable/ghandruk" />
 
-                    <TextView
-                        android:id="@+id/cardview_desc"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignStart="@id/cardview_title"
-                        android:layout_below="@id/cardview_title"
-                        android:text="Kaski"></TextView>
-                </RelativeLayout>
+                        <TextView
+                            android:id="@+id/cardview_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/cardview_image"
 
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="1dp"
-                    android:layout_marginRight="1dp"
-                    android:background="#fff"
-                    android:elevation="1dp"
-                    android:padding="10dp">
+                            android:paddingBottom="2dp"
+                            android:paddingTop="5dp"
+                            android:text="Ghandruk"
+                            android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
-                    <ImageView
-                        android:id="@+id/cardview_image"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentTop="true"
-                        android:src="@drawable/ghandruk" />
+                        <TextView
+                            android:id="@+id/cardview_desc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@id/cardview_title"
+                            android:layout_below="@id/cardview_title"
+                            android:text="Kaski"></TextView>
+                    </RelativeLayout>
 
-                    <TextView
-                        android:id="@+id/cardview_title"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/cardview_image"
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="#fff"
+                        android:elevation="1dp"
+                        android:padding="10dp">
 
-                        android:paddingBottom="2dp"
-                        android:paddingTop="5dp"
-                        android:text="Ghandruk"
-                        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+                        <ImageView
+                            android:id="@+id/cardview_image"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:src="@drawable/ghandruk" />
 
-                    <TextView
-                        android:id="@+id/cardview_desc"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignStart="@id/cardview_title"
-                        android:layout_below="@id/cardview_title"
-                        android:text="Kaski"></TextView>
-                </RelativeLayout>
-            </LinearLayout>
-        </HorizontalScrollView>
+                        <TextView
+                            android:id="@+id/cardview_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/cardview_image"
 
+                            android:paddingBottom="2dp"
+                            android:paddingTop="5dp"
+                            android:text="Ghandruk"
+                            android:textAppearance="@android:style/TextAppearance.Material.Medium" />
 
-    </LinearLayout>
+                        <TextView
+                            android:id="@+id/cardview_desc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@id/cardview_title"
+                            android:layout_below="@id/cardview_title"
+                            android:text="Kaski"></TextView>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="#fff"
+                        android:elevation="1dp"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:id="@+id/cardview_image"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:src="@drawable/ghandruk" />
+
+                        <TextView
+                            android:id="@+id/cardview_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/cardview_image"
+
+                            android:paddingBottom="2dp"
+                            android:paddingTop="5dp"
+                            android:text="Ghandruk"
+                            android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+                        <TextView
+                            android:id="@+id/cardview_desc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@id/cardview_title"
+                            android:layout_below="@id/cardview_title"
+                            android:text="Kaski"></TextView>
+                    </RelativeLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </LinearLayout>
+    </ScrollView>
 
 </FrameLayout>
